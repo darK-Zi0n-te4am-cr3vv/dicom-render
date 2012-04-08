@@ -38,8 +38,6 @@ void CDicomRender::Load(const char *fname)
 
 void CDicomRender::Load(BYTE *buffer, DWORD len)
 {
-	/* здесь мы создаем MemFile (похож на фреймворковский MemoryStream) */
-
 	CMemFile mFile(buffer, len);
 	
 	Load(&mFile);

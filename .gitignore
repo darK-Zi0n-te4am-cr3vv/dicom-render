@@ -10,3 +10,14 @@ dcmrender.lib
 *.clw
 *.ncb
 *.opt
+[Oo]bj
+*.suo
+*.user
+*.[Cc]ache
+*[Rr]esharper*
+_[Ss]cripts
+*.exe
+*.exe.config
+*.exe.manifest
+*.dic
+*.png

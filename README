@@ -8,3 +8,5 @@ Also, I cannot get how to build dcmrender.dll using MSVC 2008 or 2010. So if som
 
 Files cximagecrt.dll and dicomapi.dll is runtime DLLs for dcmrender.dll (without any source code). 
 Also, there is four .txt files in ./bin directory. All these files is required by runtime, do not delete it. 
+
+Also, render crashes when dcmrender is built with "Use MFC in a static library" option.
