@@ -1,0 +1,12 @@
+dcmrender.ilk
+dcmrender.exp
+dcmrender.lib
+*.pdb
+*.pch
+*.obj
+*.idb
+*.plg
+*.aps
+*.clw
+*.ncb
+*.opt
