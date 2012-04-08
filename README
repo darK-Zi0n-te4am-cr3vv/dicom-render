@@ -5,3 +5,6 @@ Render based on this: http://www.codeproject.com/Articles/10908/DICOM-parser-bas
 I just removed all MFC junk and wrote wrapper in C#.
 
 Also, I cannot get how to build dcmrender.dll using MSVC 2008 or 2010. So if somebody has an idea, please let me know.
+
+Files cximagecrt.dll and dicomapi.dll is runtime DLLs for dcmrender.dll (without any source code). 
+Also, there is four .txt files in ./bin directory. All these files is required by runtime, do not delete it. 
