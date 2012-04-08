@@ -1,0 +1,7 @@
+Simple render for Dicom files. 
+
+This is only one thing, that helped our project to get compatibility with .dic files that we had. 
+Render based on this: http://www.codeproject.com/Articles/10908/DICOM-parser-based-on-DICOM-server-from-dicomapi 
+I just removed all MFC junk and wrote wrapper in C#.
+
+Also, I cannot get how to build dcmrender.dll using MSVC 2008 or 2010. So if somebody has an idea, please let me know.
